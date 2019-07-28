@@ -1,0 +1,27 @@
+.img-original{
+    width: 100vw;
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 768px) {
+
+    .body-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr 1fr;
+
+        .img-original{
+            width: 50vw;
+        }
+
+        .header-imagen{
+            grid-column: 2/-1;
+            grid-row: 2/4;
+        }
+    }
+
+    
+}
+
+

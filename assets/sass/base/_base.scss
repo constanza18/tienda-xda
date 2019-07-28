@@ -1,0 +1,13 @@
+.body{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.body-container{
+    height: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    grid-gap: 0px;
+}

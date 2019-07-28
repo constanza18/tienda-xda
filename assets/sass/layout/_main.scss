@@ -1,0 +1,17 @@
+.container-texto{
+    padding: 30px 40px 30px 40px;
+}
+
+.main__title{
+    font-family: $old-standard;
+    font-size: $xx-large;
+    font-style: $bold;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 768px) {
+
+    .container-texto{
+        grid-column: 1/2;
+    }
+}

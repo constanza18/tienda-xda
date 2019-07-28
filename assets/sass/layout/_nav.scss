@@ -1,0 +1,38 @@
+nav{
+    background-color: $white;
+    grid-column: 1/-1;
+    margin: 0;
+    padding: 0;
+}
+.xda__logo{
+    font-family: $old-standard;
+    background-color: $smoky-black;
+    color: $white;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    nav{
+        background-color: $white;
+        grid-column: 1/-1;
+        margin: 0;
+        padding: 0;
+    }
+    .xda__logo{
+        font-family: $old-standard;
+        background-color: $smoky-black;
+        color: $white;
+        height: 90px;
+        width: 90px;
+        text-align: center;
+        padding-top: 30px;
+        
+    }
+ }
+
